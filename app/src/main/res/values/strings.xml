@@ -1,8 +1,22 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="nav_name">Navigation Drawer</string>
+    <string name="nav_name">My Application</string>
+    <string name="app_name">Navigation Drawer</string>
     <!-- to toggle the open close button of the navigation drawer -->
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
+
+    <!-- first page -->
+    <string name="USER_NAME">UN</string>
+    <string name="REG_NO">RN</string>
+    <string name="user_picture">up</string>
+    <string name="nav1">n1</string>
+    <string name="nav2">n2</string>
+    <string name="nav3">n3</string>
+    <string name="nav4">n4</string>
+    <string name="nav5">n5</string>
+
+    <!-- Second page -->
+    <string name="CLUBS">clb</string>
+    <string name="CATEGORIES">Categories</string>
 
 </resources>
