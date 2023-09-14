@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Activity2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                >
+                <!-- addimg 2 leniar layout -->
+
+                <!-- for username -->
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/USER_NAME"
+                        android:layout_margin="20dp"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        >
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/REG_NO"
+                        android:layout_marginStart="20sp"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        >
+                    </TextView>
+
+
+                </LinearLayout>
+                <!-- for pic -->
+                <LinearLayout
+                    android:layout_marginStart="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp">
+                    <ImageView
+                        android:layout_width="115dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/swapnil_pic_formal"
+                        android:contentDescription="@string/user_picture">
+                    </ImageView>
+
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CATEGORIES"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp">
+            </TextView>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <!-- 1st set buttons -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp"
+                    >
+                    <ImageButton
+                        android:id="@+id/mca_button"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="155dp"
+                        android:layout_height="160dp"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:src="@drawable/ic_launcher_background">
+
+                    </ImageButton>
+                    <ImageButton
+                        android:id="@+id/mba_button"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="155dp"
+                        android:layout_height="160dp"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:src="@drawable/ic_launcher_background">
+
+                    </ImageButton>
+
+                </LinearLayout>
+
+                <!-- 2nd set of buttons -->
+                <LinearLayout
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <ImageButton
+                        android:text="BTECH"
+                        android:id="@+id/btech_button"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="155dp"
+                        android:layout_height="160dp"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:src="@drawable/ic_launcher_background">
+
+                    </ImageButton>
+                    <ImageButton
+                        android:text="BBA"
+                        android:id="@+id/bba_button"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="155dp"
+                        android:layout_height="160dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:src="@drawable/ic_launcher_background">
+
+                    </ImageButton>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--  Paid ya giveaway  -->
+          <LinearLayout
+              android:layout_margin="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              >
+              <ToggleButton
+                  android:layout_marginStart="20dp"
+                  android:layout_width="150dp"
+                  android:layout_height="40dp"
+                  android:text="PAID"
+                  android:textStyle="bold">
+              </ToggleButton>
+              <ToggleButton
+                  android:layout_marginStart="20dp"
+                  android:layout_width="150dp"
+                  android:layout_height="40dp"
+                  android:text="PAID"
+                  android:textStyle="bold">
+              </ToggleButton>
+
+          </LinearLayout>
+
+            <!-- Listed things  -->
+
+
+            <!--  NAV BAR BELOW -->
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_gravity="bottom"
+                    >
+                    <ImageButton
+                        android:id="@+id/nav1"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/ic_launcher_background"
+                        android:layout_margin="5dp"
+                        android:tooltipText="@string/nav1"
+                        >
+                    </ImageButton>
+                    <ImageButton
+                        android:id="@+id/nav2"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/ic_launcher_background"
+                        android:layout_margin="5dp"
+                        >
+                    </ImageButton>
+                    <ImageButton
+                        android:id="@+id/nav3"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/ic_launcher_background"
+                        android:layout_margin="5dp"
+                        >
+                    </ImageButton>
+                    <ImageButton
+                        android:id="@+id/nav4"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/ic_launcher_background"
+                        android:layout_margin="5dp"
+                        >
+                    </ImageButton>
+                    <ImageButton
+                        android:id="@+id/nav5"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/ic_launcher_background"
+                        android:layout_margin="5dp"
+                        >
+                    </ImageButton>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
